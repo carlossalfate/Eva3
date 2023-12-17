@@ -370,7 +370,15 @@
 "Assets/Scene Teleportation Kit/Scripts/teleport/SpawnPoint.cs"
 "Assets/Scene Teleportation Kit/Scripts/teleport/Teleportable.cs"
 "Assets/Scene Teleportation Kit/Scripts/teleport/Teleporter.cs"
-"Assets/Script/Stairs.cs"
+"Assets/Script/Collectable.cs"
+"Assets/Script/Corazones.cs"
+"Assets/Script/GameOver.cs"
+"Assets/Script/GoalInteraction.cs"
+"Assets/Script/MenuInicial.cs"
+"Assets/Script/RestaVida.cs"
+"Assets/Script/ScoreTraker.cs"
+"Assets/Script/Victoria.cs"
+"Assets/Script/Vida.cs"
 -langversion:9.0
 
 /deterministic

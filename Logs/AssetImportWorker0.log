@@ -15,7 +15,7 @@ D:/inacap/Carlos Salfate/Evaluacion 3/My 3D project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57615
+58317
 Successfully changed project path to: D:/inacap/Carlos Salfate/Evaluacion 3/My 3D project
 D:/inacap/Carlos Salfate/Evaluacion 3/My 3D project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/inacap/Carlos Salfate/Evaluacion 3/My 3D project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21440] Host "[IP] 192.168.100.3 [Port] 0 [Flags] 2 [Guid] 3854477263 [EditorId] 3854477263 [Version] 1048832 [Id] WindowsEditor(7,Sebastian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23148] Host "[IP] 192.168.100.3 [Port] 0 [Flags] 2 [Guid] 608581781 [EditorId] 608581781 [Version] 1048832 [Id] WindowsEditor(7,Sebastian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21440] Host "[IP] 192.168.100.3 [Port] 0 [Flags] 2 [Guid] 3854477263 [EditorId] 3854477263 [Version] 1048832 [Id] WindowsEditor(7,Sebastian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23148] Host "[IP] 192.168.100.3 [Port] 0 [Flags] 2 [Guid] 608581781 [EditorId] 608581781 [Version] 1048832 [Id] WindowsEditor(7,Sebastian) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 26.75 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 24.63 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017900 seconds.
-- Loaded All Assemblies, in  0.502 seconds
+Registered in 0.016170 seconds.
+- Loaded All Assemblies, in  0.500 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.381 seconds
-Domain Reload Profiling: 879ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.359 seconds
+Domain Reload Profiling: 855ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (150ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (148ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (163ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (173ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (381ms)
+	FinalizeReload (359ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (281ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (201ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 879ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.070 seconds
-Refreshing native plugins compatible for Editor in 17.32 ms, found 6 plugins.
+- Loaded All Assemblies, in  1.063 seconds
+Refreshing native plugins compatible for Editor in 15.18 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.916 seconds
-Domain Reload Profiling: 1974ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.869 seconds
+Domain Reload Profiling: 1923ms
+	BeginReloadAssembly (253ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
+		CreateAndSetChildDomain (51ms)
 	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (702ms)
-		LoadAssemblies (548ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (540ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (249ms)
-				TypeCache.ScanAssembly (228ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (215ms)
 			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (916ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (869ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (673ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (480ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (477ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 15.45 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 15.16 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3536 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (1.4 MB). Loaded Objects now: 3979.
-Memory consumption went from 137.2 MB to 135.9 MB.
-Total: 6.345100 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.110000 ms MarkObjects: 5.159400 ms  DeleteObjects: 0.674300 ms)
+Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.4 MB). Loaded Objects now: 3990.
+Memory consumption went from 140.8 MB to 139.5 MB.
+Total: 5.510500 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.130900 ms MarkObjects: 4.407300 ms  DeleteObjects: 0.561100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,412 +184,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 148193.216900 seconds.
-  path: Assets/Props_3D/Prefabs/models/coin_lowpoly.prefab
-  artifactKey: Guid(20d66d81b368b4f76844bc729c0ea51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/coin_lowpoly.prefab using Guid(20d66d81b368b4f76844bc729c0ea51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b002631f16bf1b8cf08baf6f41d1357d') in 0.135206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Props_3D/Prefabs/models/bottle3.prefab
-  artifactKey: Guid(4ef712f7106f743bdbafa470e1f4c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/bottle3.prefab using Guid(4ef712f7106f743bdbafa470e1f4c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad1acebae12efe5824ba7def08087d4') in 0.021101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props_3D/Prefabs
-  artifactKey: Guid(3e0d2abd556454e4693df34f73b3d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs using Guid(3e0d2abd556454e4693df34f73b3d9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8985b348f814a5e6ec0b7cec9f9f36b') in 0.000701 seconds
+  Time since last request: 157896.437031 seconds.
+  path: Assets/Scenes/Nivel Principal.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel Principal.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1f1f6d2c0d3609600db2969bb1a404') in 0.003159 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Props_3D/Prefabs/models/bottle1_lowpoly.prefab
-  artifactKey: Guid(7c2153f5d9668403c80933d7c9fbb37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/bottle1_lowpoly.prefab using Guid(7c2153f5d9668403c80933d7c9fbb37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52d8b70cc30d1c8cb46b90789c561ad') in 0.021123 seconds
+  Time since last request: 1158.802119 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(d0fa89b73708f25479b4806147a3a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(d0fa89b73708f25479b4806147a3a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a6d791af8d1bf52e1b1c53b03e59f4') in 0.000772 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/barrel_collider.prefab
-  artifactKey: Guid(ec1335441e0d4456989f7e860643cb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/barrel_collider.prefab using Guid(ec1335441e0d4456989f7e860643cb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a8a5e854f2213f3eb41715249226eb') in 0.018409 seconds
+  Time since last request: 0.056751 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(a3c6b430dfeca1f4188ec6de9c94f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(a3c6b430dfeca1f4188ec6de9c94f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39e95d84f02bc03760a908cfc965555') in 0.062462 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/watch_collider.prefab
-  artifactKey: Guid(72b903e1692484ad59435f910f04b50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/watch_collider.prefab using Guid(72b903e1692484ad59435f910f04b50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26097b301f6c104b4c002afeaa635e5e') in 0.021671 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/gem-1.prefab
+  artifactKey: Guid(6c41ede97dcc5a244aede5d7cb10ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/gem-1.prefab using Guid(6c41ede97dcc5a244aede5d7cb10ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ec24b68b09345f00d3c7e0803b26b3') in 0.006268 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props_3D/Prefabs/models/powder.prefab
-  artifactKey: Guid(9b8620a18b5ca4311845cf75cecd9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/powder.prefab using Guid(9b8620a18b5ca4311845cf75cecd9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88afff3261eed3f2ffc3c15097857ec9') in 0.020511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/bag_lowpoly_collider.prefab
-  artifactKey: Guid(28e81a96df0e04545a7ce375e91734f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/bag_lowpoly_collider.prefab using Guid(28e81a96df0e04545a7ce375e91734f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65bfd73b952e830b8d915f0bccb3679') in 0.023465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/barrel_lowpoly_collider.prefab
-  artifactKey: Guid(adbfb9369ecad471cb198408bbf4f8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/barrel_lowpoly_collider.prefab using Guid(adbfb9369ecad471cb198408bbf4f8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8085a33e98e11d09540aec7f65b654') in 0.022027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/candle_lowpoly_collider.prefab
-  artifactKey: Guid(45e60e31b90044362b56f78ca8f79778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/candle_lowpoly_collider.prefab using Guid(45e60e31b90044362b56f78ca8f79778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3430433c00f23bf05ee8ecadc7002c87') in 0.020672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props_3D/Prefabs/models/candle_lowpoly.prefab
-  artifactKey: Guid(dcb0fbb30585745568117cfe171f7a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/candle_lowpoly.prefab using Guid(dcb0fbb30585745568117cfe171f7a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9826356db07d29872bff8742a780e225') in 0.020485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Props_3D/Prefabs/models/hourglass_lowpoly.prefab
-  artifactKey: Guid(0298781f44cff4a65a365f81fe372fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/hourglass_lowpoly.prefab using Guid(0298781f44cff4a65a365f81fe372fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3424208112ca7c57d5e639f02ca5de9') in 0.022860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Props_3D/Prefabs/models/barrel_lowpoly.prefab
-  artifactKey: Guid(828edd55097684d93a142e413dd18877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/barrel_lowpoly.prefab using Guid(828edd55097684d93a142e413dd18877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb44f1e5404b986396c37fe0ddc1fe23') in 0.019959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props_3D/Prefabs/models/scroll.prefab
-  artifactKey: Guid(ab7ade7870bc24a239cf431c4528e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/scroll.prefab using Guid(ab7ade7870bc24a239cf431c4528e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ad4d78487cc97b0d4b0eb6b68a47cd') in 0.021384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/hourglass_collider.prefab
-  artifactKey: Guid(168e107ca24ff4861bb02c42566656cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/hourglass_collider.prefab using Guid(168e107ca24ff4861bb02c42566656cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e80728ba97d0ef0e2c2c9ac08dcd25a') in 0.021647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props_3D/Prefabs/models/crystal.prefab
-  artifactKey: Guid(981104bc9b7f54406b81b83211b93b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/crystal.prefab using Guid(981104bc9b7f54406b81b83211b93b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb2012e6a3dd3e83e2daf3c819e8caa') in 0.021116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props_3D/Prefabs/models/bottle2.prefab
-  artifactKey: Guid(d0834385148c44a2ab6c5f7fa178b30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/bottle2.prefab using Guid(d0834385148c44a2ab6c5f7fa178b30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb126e25158577098de90d8cbcf74fd') in 0.022164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props_3D/Prefabs/models/lamp_lowpoly.prefab
-  artifactKey: Guid(7c528695220f14f879b3a8115f71762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/lamp_lowpoly.prefab using Guid(7c528695220f14f879b3a8115f71762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea598556fd430a67abdc6325df665947') in 0.019634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props_3D/Prefabs/models/Bomb.prefab
-  artifactKey: Guid(732e12a252da64507987819a344450d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/Bomb.prefab using Guid(732e12a252da64507987819a344450d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c29eb743abbf2a860f23dc992ec2f38') in 0.070987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props_3D/Prefabs/models/bag.prefab
-  artifactKey: Guid(a759e2f8d530745e28813cf0ba17a08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/bag.prefab using Guid(a759e2f8d530745e28813cf0ba17a08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bdfea092076b94c1e6048023bc92d5') in 0.023481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Props_3D/Prefabs/models/diamond.prefab
-  artifactKey: Guid(6305fca550ce94881aa8ea45469786ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/diamond.prefab using Guid(6305fca550ce94881aa8ea45469786ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487f5c75fdd06bbb53cefdf71db08d02') in 0.019133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props_3D/Prefabs/models/powder_lowpoly.prefab
-  artifactKey: Guid(e46a1a5a680534e2a91d0ecaeaa295f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/powder_lowpoly.prefab using Guid(e46a1a5a680534e2a91d0ecaeaa295f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859d319c7b57546b3325e4f3f1410b52') in 0.020677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props_3D/Prefabs/models/bottle1.prefab
-  artifactKey: Guid(53d51af35c8234189b1340887ac652c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/models/bottle1.prefab using Guid(53d51af35c8234189b1340887ac652c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcc47c6a23f63cefbbf39d1d819e2b3') in 0.022639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props_3D/Prefabs/colliders/diamond_collider.prefab
-  artifactKey: Guid(3529132681161446793c4a91e5bf0f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Prefabs/colliders/diamond_collider.prefab using Guid(3529132681161446793c4a91e5bf0f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273880fe7fce00f28cb7052227250c66') in 0.018935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 9.263832 seconds.
-  path: Assets/Props_3D/Textures/effect_sparkle.png
-  artifactKey: Guid(db1cd5d5e13b94f57ade19d396a0c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/effect_sparkle.png using Guid(db1cd5d5e13b94f57ade19d396a0c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6beec793541adb87970b159bb46b3d70') in 0.068793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Props_3D/Textures/texture_bomb_BaseMap.png
-  artifactKey: Guid(3795f184c97164ef0b8511149479061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bomb_BaseMap.png using Guid(3795f184c97164ef0b8511149479061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6939fe5e9b3edd486bacce55732a16f') in 0.031478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Props_3D/Textures/texture_barrel_lowpoly_MaskMap.png
-  artifactKey: Guid(530fea34633754131a438b1c6da96485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_barrel_lowpoly_MaskMap.png using Guid(530fea34633754131a438b1c6da96485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a66190865d810a8ba27d0f4f955f16') in 0.028254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props_3D/Textures/texture_bag_MaskMap.png
-  artifactKey: Guid(62a32cd2a9d8142f8a20179732325a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bag_MaskMap.png using Guid(62a32cd2a9d8142f8a20179732325a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95fe847f78f0c1b441d4b4ccbd73555') in 0.029620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Props_3D/Textures/texture_barrel_BaseMap.png
-  artifactKey: Guid(a46f481c985e142f3a3005f18840c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_barrel_BaseMap.png using Guid(a46f481c985e142f3a3005f18840c7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d17e9b24183c6027036d14546019af') in 0.028445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.805331 seconds.
-  path: Assets/Props_3D/Textures/texture_bottle1_Alpha.png
-  artifactKey: Guid(ca13a59e1daed4c99bbf270e70b76114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bottle1_Alpha.png using Guid(ca13a59e1daed4c99bbf270e70b76114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff39d2b7b47aa7583d0dc51b36649c1') in 0.031083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.400163 seconds.
-  path: Assets/Props_3D/Textures/texture_bottle1_Normal.png
-  artifactKey: Guid(61e991477c82245e494b936437023bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bottle1_Normal.png using Guid(61e991477c82245e494b936437023bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f2657e5661c9915fca5526552b0209') in 0.038118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020092 seconds.
-  path: Assets/Props_3D/Textures/texture_bottle2_MaskMap.png
-  artifactKey: Guid(c367a81cc00584d24ad951610498660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bottle2_MaskMap.png using Guid(c367a81cc00584d24ad951610498660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cbc842ea1b4d04cdcb459d93f8b480') in 0.030312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.279812 seconds.
-  path: Assets/Props_3D/Textures/texture_bottle3_BaseMap.png
-  artifactKey: Guid(13bd9e7fb334242acbe59874179633c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bottle3_BaseMap.png using Guid(13bd9e7fb334242acbe59874179633c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0668df044e3adb78f71cb2b11e645632') in 0.029549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props_3D/Textures/texture_bottle3_Normal.png
-  artifactKey: Guid(a3789745e12684d5fbcf3c28989d40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_bottle3_Normal.png using Guid(a3789745e12684d5fbcf3c28989d40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4debe228b6032d1e2a6369764b7ad5f') in 0.030517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.019327 seconds.
-  path: Assets/Props_3D/Textures/texture_coin_BaseMap.png
-  artifactKey: Guid(e1806ee0ebea84d30a027094f714ec98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_coin_BaseMap.png using Guid(e1806ee0ebea84d30a027094f714ec98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803c4d8050c6d6ada0979f06505606fe') in 0.029718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.253211 seconds.
-  path: Assets/Props_3D/Textures/texture_hourglass_Alpha.png
-  artifactKey: Guid(4a15898812e26435b8427b348756fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_hourglass_Alpha.png using Guid(4a15898812e26435b8427b348756fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aeeee3237fd7bcc9c87bb73bf76d3f') in 0.031411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.012224 seconds.
-  path: Assets/Props_3D/Textures/texture_hourglass_Normal.png
-  artifactKey: Guid(5292ea62a5ad64a98a9f986a58ef7398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_hourglass_Normal.png using Guid(5292ea62a5ad64a98a9f986a58ef7398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ef5a950ee2196e42178736df61a114') in 0.035620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props_3D/Textures/texture_lamp_Emission.png
-  artifactKey: Guid(0d9206e290a93458d86c1e06056b3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_lamp_Emission.png using Guid(0d9206e290a93458d86c1e06056b3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ce00a4e6323e1b54982d23b7cbe16b') in 0.029674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.248482 seconds.
-  path: Assets/Props_3D/Textures/texture_powder_BaseMap.png
-  artifactKey: Guid(8b10cb693a3374464b37e32b1e7df163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_powder_BaseMap.png using Guid(8b10cb693a3374464b37e32b1e7df163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1243a410abe854da4ff6f9d5cd94ec1') in 0.029490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.017975 seconds.
-  path: Assets/Props_3D/Textures/texture_scroll_BaseMap.png
-  artifactKey: Guid(86502f073e4194d5e9ebc1244e6ea1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_scroll_BaseMap.png using Guid(86502f073e4194d5e9ebc1244e6ea1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ffa96074d1299dca4c8dd62fb1d584') in 0.027544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.206264 seconds.
-  path: Assets/Props_3D/Textures/texture_scroll_lowpoly_Normal.png
-  artifactKey: Guid(a65be25453fa14e8493198d1c8b41fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_scroll_lowpoly_Normal.png using Guid(a65be25453fa14e8493198d1c8b41fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265039e007c5480b1bc3795d36ff1a04') in 0.031291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.023253 seconds.
-  path: Assets/Props_3D/Textures/texture_watch_BaseMap.png
-  artifactKey: Guid(c4342facf7de94bb2affac461cbfac09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_watch_BaseMap.png using Guid(c4342facf7de94bb2affac461cbfac09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66a3a76565b86c022456ecc192ae273') in 0.031118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Props_3D/Textures/texture_watch_MaskMap.png
-  artifactKey: Guid(3584dd86b848448b38d3d1271fef5ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Textures/texture_watch_MaskMap.png using Guid(3584dd86b848448b38d3d1271fef5ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a240b0b5af6ef223aa2ea56a5c6c664') in 0.031296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 13.007821 seconds.
-  path: Assets/Props_3D/Materials/material_bag.mat
-  artifactKey: Guid(88dbfa2932ec1445cbdde52939a2721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Materials/material_bag.mat using Guid(88dbfa2932ec1445cbdde52939a2721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83de7e601d71069cbe9ea4eda693e01') in 0.069786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Props_3D/Materials/material_barrel_lowpoly.mat
-  artifactKey: Guid(8292fb99ee3234a1f862899e8647039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Materials/material_barrel_lowpoly.mat using Guid(8292fb99ee3234a1f862899e8647039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d136545f126501bb9bdd75abd646151') in 0.015437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Props_3D/Materials/material_coin.mat
-  artifactKey: Guid(338066c011e854557a50ab397789ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Materials/material_coin.mat using Guid(338066c011e854557a50ab397789ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eaff0daba990de9374b825c599ebc38') in 0.017490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props_3D/Materials/material_candle.mat
-  artifactKey: Guid(348d6bcd8ec8e4770a60b04b903ffdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Materials/material_candle.mat using Guid(348d6bcd8ec8e4770a60b04b903ffdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0bfb37c23d447671d2bfbd708ecb20') in 0.014321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1.703286 seconds.
-  path: Assets/Props_3D/Fbx/bag_collider.fbx
-  artifactKey: Guid(9fa892827b67b43868cce2b04ec1decd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Fbx/bag_collider.fbx using Guid(9fa892827b67b43868cce2b04ec1decd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17db5da465a1e61e8cb918cdb447f44b') in 0.074286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Props_3D/Fbx/barrel_lowpoly_collider.fbx
-  artifactKey: Guid(2b432bf7d5ecf4f6da8f1d14332e124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Fbx/barrel_lowpoly_collider.fbx using Guid(2b432bf7d5ecf4f6da8f1d14332e124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021acd63d09f10087defa51a2fc71c42') in 0.030491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props_3D/Fbx/bomb_lowpoly.fbx
-  artifactKey: Guid(d6d299224a6c24cef916088e5b0a1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Fbx/bomb_lowpoly.fbx using Guid(d6d299224a6c24cef916088e5b0a1171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc0aff7ad9d5afa7a4e549f2e331ee0') in 0.031235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Props_3D/Fbx/bomb.fbx
-  artifactKey: Guid(ffdfad76d2f7648d19c79be026141ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props_3D/Fbx/bomb.fbx using Guid(ffdfad76d2f7648d19c79be026141ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6d96a535b3be51dd597996069cd401') in 0.025219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server
