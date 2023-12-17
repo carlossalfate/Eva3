@@ -362,6 +362,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Jammo-Character/Scripts/CharacterSkinController.cs"
 "Assets/Jammo-Character/Scripts/MovementInput.cs"
+"Assets/Scene Teleportation Kit/Scripts/player/PlayerCamera.cs"
+"Assets/Scene Teleportation Kit/Scripts/player/PlayerController.cs"
+"Assets/Scene Teleportation Kit/Scripts/player/PlayerManager.cs"
+"Assets/Scene Teleportation Kit/Scripts/player/PlayerMovement.cs"
+"Assets/Scene Teleportation Kit/Scripts/teleport/PortTrigger.cs"
+"Assets/Scene Teleportation Kit/Scripts/teleport/SpawnPoint.cs"
+"Assets/Scene Teleportation Kit/Scripts/teleport/Teleportable.cs"
+"Assets/Scene Teleportation Kit/Scripts/teleport/Teleporter.cs"
 "Assets/Script/Stairs.cs"
 -langversion:9.0
 
